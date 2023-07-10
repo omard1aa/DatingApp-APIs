@@ -21,3 +21,5 @@ Dotnet EF tool >> `dotnet tool install --global dotnet-ef --version 7.0.8`
 add migration >> `dotnet ef migrations add Initial -i Data/Migrations`
 
 db migrate >> `dotnet ef database update`
+
+generate ssh `ssh-keygen -t ed25519 -C "your_email@example.com`
